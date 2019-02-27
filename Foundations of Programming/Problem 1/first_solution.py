@@ -16,10 +16,8 @@ class Main:
                 else:
                     break
             if i == len(word):
-                if longest_word_found is None:
-                    longest_word_found = word
-                elif (len(word) > len(longest_word_found)):
-                    longest_word_found = word       
+                if longest_word_found is None or len(word) > len(longest_word_found):
+                    longest_word_found = word      
 
       return(longest_word_found)
 
