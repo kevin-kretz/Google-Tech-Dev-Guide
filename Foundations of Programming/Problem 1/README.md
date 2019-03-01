@@ -26,9 +26,9 @@ You can view this solution here: <a href="./improved_greedy_approach.py">Improve
 
 Things I learned:
 - The proper use of docstrings and dunders.
-- The built in `defaultdic` function of Python
+- The built in `defaultdict` function of Python
 - Build better loops without using integers to index over things and how to use the `enumerate()` function
 - Using lambda functions to sort objects
-- How to improve my selection of default variables (e.g. I could have used `-1` instead of `None` for one of my default variables to elimate a bunch of unnecessary code.)
+- How to improve my selection of default variables (e.g. I could have used `-1` instead of `None` for one of my default variables to eliminate a bunch of unnecessary code.)
 - How to write better function and variable names
 - Better use of classes
