@@ -13,7 +13,7 @@ More examples:
 This is a simple "warm-up" drill for a Java based exercise.
 
 ## My Solution
-This coding problem was pretty simple.  I simply made to strings: one for the previous letters, and one for my final string.  I simply added my current letter to the previous letters string, and then took that list and added it to my final string.
+This coding problem was pretty simple.  I simply made two strings: one for the previous letters, and one for my final string.  I simply added my current letter to the previous letters string, and then took that list and added it to my final string.
 
 You can view my solution here: <a href="mySolution.java">My Solution</a>
 
@@ -31,4 +31,4 @@ public String stringSplosion(String str) {
 The optimal solution, takes what I did and uses substrings instead of two seperate string.
 
 ## Things I learned:
-I was reminded of how to iterate over a string using a for loop.
+I was reminded of how to iterate over a string using a for loop in Java.
