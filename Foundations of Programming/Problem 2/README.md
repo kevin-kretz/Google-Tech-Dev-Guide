@@ -1,6 +1,4 @@
-You can view Google's official challenge here: https://goo.gl/1vdL4z
-
-# The Challenge
+# <a href="https://goo.gl/1vdL4z">The Challenge</a>
 
 Given a non-empty string like "Code" return a string like "CCoCodCode".
 
@@ -9,13 +7,23 @@ More examples:
 - stringSplosion("abc") → "aababc"
 - stringSplosion("ab") → "aab"
 
-## Learning Objectives
 This is a simple "warm-up" drill for a Java based exercise.
 
-## My Solution
+## <a href="mySolution.java">My Solution</a>
+```
+public String stringSplosion(String str) {
+  String prev_chars = "";
+  String final_string = "";
+  
+  for (int i=0; i < str.length(); i++) {
+    prev_chars += str.charAt(i);
+    final_string += prev_chars;
+  }
+  
+  return final_string;
+}
+```
 This coding problem was pretty simple.  I simply made two strings: one for the previous letters, and one for my final string.  I simply added my current letter to the previous letters string, and then took that list and added it to my final string.
-
-You can view my solution here: <a href="mySolution.java">My Solution</a>
 
 ## Optimal Solution
 ```
